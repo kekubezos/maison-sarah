@@ -97,3 +97,62 @@ nav {
 .card img {
   width: 100%;
 }
+
+.table {
+  border-collapse: collapse;
+  display: flex;
+  gap: 4.8rem;
+}
+
+th,
+td {
+  border: 1px solid #e3d9c9;
+  padding: 0.8rem 1.2rem;
+  text-align: left;
+}
+th {
+  background-color: #012e1c;
+  color: #cad6c2;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f2e9db;
+}
+
+.field {
+  font-family: "Lato", sans-serif;
+  font-size: 1.6rem;
+  padding: 0.8rem;
+  border: 1px solid #c9bda9;
+  width: 100%;
+  max-width: 40rem;
+}
+
+label {
+  display: block;
+  font-weight: 700;
+  margin-bottom: 0.4rem;
+}
+
+.choice label {
+  display: inline;
+  font-weight: 400;
+}
+
+.field:focus {
+  outline: 3px solid #e9b872;
+}
+
+input {
+  accent-color: #8a5a2e;
+}
+
+button {
+  background-color: #3b4002;
+  color: #cad6c2;
+  font-family: "Lato", sans-serif;
+  font-size: 1.8rem;
+  padding: 0.8rem 1.6rem;
+  border: none;
+  cursor: pointer;
+}
